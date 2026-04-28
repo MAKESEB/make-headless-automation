@@ -1,0 +1,7 @@
+{
+  "invoiceId": "INV-90017",
+  "vendorName": "Contoso Logistics",
+  "amount": 48250.75,
+  "poNumber": "PO-7742",
+  "exceptionReason": "Invoice amount is 7 percent above purchase order total."
+}

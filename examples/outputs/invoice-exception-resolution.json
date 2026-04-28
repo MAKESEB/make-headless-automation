@@ -1,0 +1,7 @@
+{
+  "resolutionStatus": "approval-requested",
+  "approver": "finance-controller",
+  "taskId": "FIN-TASK-001",
+  "auditRecordId": "AUDIT-INV-001",
+  "executionId": "exec_fixture_invoice_001"
+}

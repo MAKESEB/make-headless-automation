@@ -1,0 +1,8 @@
+.omx/
+.env
+.env.*
+!.env.example
+node_modules/
+out/
+coverage/
+npm-debug.log*

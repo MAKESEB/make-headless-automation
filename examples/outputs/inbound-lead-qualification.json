@@ -1,0 +1,7 @@
+{
+  "crmLeadId": "CRM-LEAD-001",
+  "score": 87,
+  "owner": "enterprise-sales",
+  "nextStep": "Book discovery call and attach partner-webinar context.",
+  "executionId": "exec_fixture_lead_001"
+}

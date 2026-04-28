@@ -1,0 +1,7 @@
+{
+  "escalationId": "ESC-001",
+  "owner": "customer-success-lead",
+  "slaDeadline": "2026-04-28T16:00:00Z",
+  "channelUrl": "https://example.invalid/escalations/ESC-001",
+  "executionId": "exec_fixture_escalation_001"
+}

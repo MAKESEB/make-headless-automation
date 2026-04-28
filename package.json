@@ -1,0 +1,25 @@
+{
+  "name": "make-headless-automation",
+  "version": "0.1.0",
+  "description": "Talk package showing Make as a headless business automation layer for agents and code.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "headless-make": "./bin/headless-make.mjs"
+  },
+  "scripts": {
+    "doctor": "node ./bin/headless-make.mjs doctor",
+    "list": "node ./bin/headless-make.mjs list-workflows",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "make",
+    "automation",
+    "headless",
+    "agents",
+    "cli"
+  ]
+}

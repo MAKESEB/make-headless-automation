@@ -1,0 +1,10 @@
+{
+  "approvalStatus": "pending-approval",
+  "approver": "deal-desk-manager",
+  "crmUpdateId": "CRM-UPDATE-001",
+  "policyFlags": [
+    "discount_above_standard_band",
+    "annual_prepay_mitigates_risk"
+  ],
+  "executionId": "exec_fixture_deal_desk_001"
+}

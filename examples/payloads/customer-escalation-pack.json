@@ -1,0 +1,7 @@
+{
+  "ticketId": "TICKET-1042",
+  "accountName": "Atlas Retail Group",
+  "severity": "sev-1",
+  "summary": "Order sync has failed three times in production and the customer is inside renewal window.",
+  "requestedBy": "support-ops"
+}

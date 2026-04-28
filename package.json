@@ -1,7 +1,7 @@
 {
   "name": "make-headless-automation",
   "version": "0.1.0",
-  "description": "Talk package showing Make as a headless business automation layer for agents and code.",
+  "description": "Use Make headlessly as the enterprise API layer for agents, apps, humans, and team automations.",
   "license": "MIT",
   "type": "module",
   "bin": {

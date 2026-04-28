@@ -73,7 +73,7 @@ test("public docs stay English-only and avoid competitor SDK framing", async () 
     "docs/talk.md",
     "package.json"
   ];
-  const forbiddenFraming = /\b(?:Zapier|zapier|zapier-sdk|@zapier|Kernthese|fuer|Szenario|Ausfuehrung|zurueck|nicht|oder|waehrend)\b/;
+  const forbiddenFraming = /\b(?:talk package|Talk package|Zapier|zapier|zapier-sdk|@zapier|Kernthese|fuer|Szenario|Ausfuehrung|zurueck|nicht|oder|waehrend)\b/;
 
   for (const relativePath of publicDocs) {
     const content = await readFile(path.join(repoRoot, relativePath), "utf8");
@@ -84,6 +84,15 @@ test("public docs stay English-only and avoid competitor SDK framing", async () 
     readFile(path.join(repoRoot, "docs/talk-de.md"), "utf8"),
     { code: "ENOENT" }
   );
+});
+
+test("README embeds the core visual story", async () => {
+  const readme = await readFile(path.join(repoRoot, "README.md"), "utf8");
+
+  assert.match(readme, /!\[Enterprise automation layer\]\(docs\/diagrams\/enterprise-automation-layer\.jpg\)/);
+  assert.match(readme, /!\[One contract, many interfaces\]\(docs\/diagrams\/one-contract-many-interfaces\.jpg\)/);
+  assert.match(readme, /!\[Safety model\]\(docs\/diagrams\/safety-model\.jpg\)/);
+  assert.match(readme, /!\[API shell pattern\]\(docs\/diagrams\/api-shell-pattern\.jpg\)/);
 });
 
 function fixtureEnv() {
